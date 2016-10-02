@@ -14,7 +14,7 @@ Documentation for myNameHello
 
 You will find complete documentation for myNameHello at `the myNameHello readthedocs page`_.
 
-.. _the ANTk readthedocs page: http://myNameHello.readthedocs.io/en/latest/
+.. the myNameHello readthedocs page: http://myNameHello.readthedocs.io/en/latest/
 
 .. |docs| image:: docs/_static/docs.gif
     :alt: Documentation
