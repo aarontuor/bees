@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# hello documentation build configuration file, created by
+# bees documentation build configuration file, created by
 # sphinx-quickstart on Sun Oct  2 10:21:17 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -20,7 +20,7 @@ import os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 sys.path.append(os.path.abspath('sphinxext'))
-sys.path.append(os.path.abspath('../hello/'))
+sys.path.append(os.path.abspath('../bees/'))
 
 # -- General configuration ------------------------------------------------
 
@@ -56,7 +56,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'hello'
+project = u'bees'
 copyright = u'2016, MyName'
 author = u'MyName'
 
@@ -119,9 +119,9 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = "sphinx_rtd_theme"
-html_logo = '_static/snake.png'
+html_logo = '_static/bee_logo_pic_small.png'
 html_theme_path = ["_themes"]
 html_static_path = ['_static']
-htmlhelp_basename = 'hellodoc'
+htmlhelp_basename = 'beesdoc'
 
 

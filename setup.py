@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
-setup(name='helloMyname',
+setup(name='bees',
       version=0.01,
       description='Python package example',
-      url='http://mywebsite',
-      author='myname',
+      url='https://github.com/aarontuor/bees',
+      author='Aaron Tuor',
       author_email='tuora@students.wwu.edu',
       license='none',
       packages=find_packages(), # or list of packages path from this directory

@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index &mdash; bees 0.01 documentation</title>
+  <title>hsearch &mdash; bees 0.01 documentation</title>
   
 
   
@@ -25,16 +24,17 @@
 
   
   
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   
 
   
 
   
-    <link rel="top" title="bees 0.01 documentation" href="index.html"/> 
+    <link rel="top" title="bees 0.01 documentation" href="../index.html"/>
+        <link rel="up" title="Module code" href="index.html"/> 
 
   
-  <script src="_static/js/modernizr.min.js"></script>
+  <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
@@ -49,12 +49,12 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> bees
+            <a href="../index.html" class="icon icon-home"> bees
           
 
           
             
-            <img src="_static/bee_logo_pic_small.png" class="logo" />
+            <img src="../_static/bee_logo_pic_small.png" class="logo" />
           
           </a>
 
@@ -69,7 +69,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -97,7 +97,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">bees</a>
+        <a href="../index.html">bees</a>
       </nav>
 
 
@@ -112,9 +112,11 @@
 
 <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
+    <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li></li>
+          <li><a href="index.html">Module code</a> &raquo;</li>
+      
+    <li>hsearch</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -126,30 +128,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
+  <h1>Source code for hsearch</h1><div class="highlight"><pre>
+<div class="viewcode-block" id="hi"><a class="viewcode-back" href="../index.html#hsearch.hi">[docs]</a><span class="k">def</span> <span class="nf">hi</span><span class="p">(</span><span class="n">some_number</span><span class="p">,</span> <span class="n">mood</span><span class="o">=</span><span class="s1">&#39;excited&#39;</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Fancy hello world function. :math:`\sum_{i=1}^{10} badDocs*BadlyWrittenCode = frustration`</span>
 
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- <a href="#H"><strong>H</strong></a>
- 
-</div>
-<h2 id="H">H</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="index.html#hsearch.hi">hi() (in module hsearch)</a>
-  </dt>
-
-  </dl></td>
-  <td style="width: 33%" valign="top"><dl>
-      
-  <dt><a href="index.html#module-hsearch">hsearch (module)</a>
-  </dt>
-
-  </dl></td>
-</tr></table>
-
-
+<span class="sd">    :param some_number: (int) Something to return.</span>
+<span class="sd">    :param mood: (str) A string describing a mood.</span>
+<span class="sd">    :param verbose: (boolean) Where or not to be a gushing hello world program.</span>
+<span class="sd">    :return: (int) some_number</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;hello world! I am </span><span class="si">%s</span><span class="s1"> to be a program.&#39;</span> <span class="o">%</span> <span class="n">mood</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s1">&#39;I am veeeeery </span><span class="si">%s</span><span class="s1"> excited to meet you&#39;</span> <span class="o">%</span> <span class="n">mood</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">some_number</span></div>
+</pre></div>
 
            </div>
           </div>
@@ -181,23 +174,23 @@
 
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
+            URL_ROOT:'../',
             VERSION:'0.01',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
         };
     </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
       <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   
 
   
   
-    <script type="text/javascript" src="_static/js/theme.js"></script>
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
   
 
   
