@@ -14,7 +14,7 @@ Documentation for BEES
 
 You will find complete documentation for BEES at `the BEES readthedocs page`_.
 
-.. the BEES readthedocs page: http://bees.readthedocs.io/en/latest/
+.. _the BEES readthedocs page: http://bees.readthedocs.io/en/latest/
 
 .. |docs| image:: docs/_static/docs.gif
     :alt: Documentation
